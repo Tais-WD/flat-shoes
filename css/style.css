@@ -1,14 +1,18 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.content-wrapper-outer {
+  background: bisque;
 }
 .content {
   margin: 0 auto;
   width: 1184px;
-  border: 2px solid red;
+
   position: relative;
 }
 .header__content {
-  background: beige;
 }
 .wrappper {
   width: 1618px;
@@ -21,7 +25,7 @@
 .header__language-menu__items {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding-top: 30px;
 }
 .header__language-menu__item {
   display: inline-block;
@@ -40,7 +44,8 @@
 .header__currency-menu__items {
   list-style: none;
   margin: 0;
-  padding: 0;
+
+  padding-top: 30px;
 }
 .header__currency-menu__item {
   display: inline-block;
@@ -55,4 +60,18 @@
 .is-active a {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
+}
+.wrappper-inner {
+  background: beige;
+}
+
+.header__content-left {
+  display: flex;
+}
+
+.header-text__left {
+  font-size: 13px;
+  display: inline-block;
+  position: relative;
+  bottom: 3px;
 }

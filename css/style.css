@@ -3,9 +3,7 @@
   padding: 0;
   margin: 0;
 }
-.content-wrapper-outer {
-  background: bisque;
-}
+
 .content {
   background: #fbfbfb;
   margin: 0 auto;
@@ -59,9 +57,7 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
-.wrappper-inner {
-  background: beige;
-}
+
 .main-header-group {
   display: flex;
   justify-content: space-between;
